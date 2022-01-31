@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans&family=Roboto:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #acc1ff;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.navbar .logo {
+  display: block;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-left: 35px;
+}
+
+.navbar .links a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 30px 10px 0;
+  cursor: pointer;
+  height: 100%;
+}
+
+.navbar .links a:hover {
+  background: #8daefc;
+}
+
+/* Showcase */
+
+.showcase {
+  background: url("/images/showcase-image.png") no-repeat right bottom;
+  background-color: #c5d5ff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.showcase .showcase-content {
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.showcase .showcase-content p {
+  font-size: 50px;
+  display: block;
+  padding: 50px;
+}
+
+.showcase .showcase-content a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 10px 30px;
+  margin-top: 30px;
+  border-radius: 30px;
+  margin-left: 50px;
+}
+
+.showcase .showcase-image {
+  align-self: flex-end;
+}
+
+.showcase .showcase-image img {
+}
+
+.showcase .showcase-content a:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.showcase .showcase-image img {
+}
